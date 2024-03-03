@@ -10,10 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Tests_created_ChatGPT\Class1.cs" />
-    <Compile Remove="Tests_created_ChatGPT\ClickOnTabsUsingASpecificSequence.cs" />
-    <Compile Remove="Tests_created_ChatGPT\HighlightEelement.cs" />
-    <Compile Remove="Tests_created_ChatGPT\HomepageTests_Vo1.cs" />
+    <Compile Remove="Tests_generated_ChatGPT\Class1.cs" />
+    <Compile Remove="Tests_generated_ChatGPT\ClickOnTabsUsingASpecificSequence.cs" />
+    <Compile Remove="Tests_generated_ChatGPT\HighlightEelement.cs" />
+    <Compile Remove="Tests_generated_ChatGPT\HomepageTests_Vo1.cs" />
   </ItemGroup>
 
   <ItemGroup>
