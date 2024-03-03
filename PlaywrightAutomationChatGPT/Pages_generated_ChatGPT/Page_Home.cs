@@ -3,7 +3,7 @@
 
 namespace PlaywrightAutomationChatGPT.Pages_generated_ChatGPT
 {
-    public class Page_Home_V02
+    public class Page_Home
     {
         private readonly IPage _page;
 
@@ -14,33 +14,12 @@ namespace PlaywrightAutomationChatGPT.Pages_generated_ChatGPT
         private ILocator ElectronicsLinkLocator => _page.GetByRole(AriaRole.Link, new() { Name = "Electronics" }).First;
 
 
-        public Page_Home_V02(IPage page)
+        public Page_Home(IPage page)
         {
             _page = page;
         }
 
-        //// Methods to access locators
-        //public ILocator GetRegisterLinkLocator()
-        //{
-        //    return RegisterLinkLocator;
-        //}
-
-        //public ILocator GetLoginLinkLocator()
-        //{
-        //    return LoginLinkLocator;
-        //}
-
-        //public ILocator GetComputersLinkLocator()
-        //{
-        //    return ComputersLinkLocator;
-        //}
-
-        //public ILocator GetElectronicsLinkLocator()
-        //{
-        //    return ElectronicsLinkLocator;
-        //}
-
-        // Other methods for navigation and visibility checks...
+        // Methods for navigation and visibility checks.
         public async Task NavigateToHomePageAsync(string url)
         {
             await _page.GotoAsync(url);

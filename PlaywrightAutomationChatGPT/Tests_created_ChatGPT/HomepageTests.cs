@@ -17,7 +17,7 @@ public class TestCases
         var context = await browser.NewContextAsync();
         var page = await context.NewPageAsync();
 
-        var pageHome = new Page_Home_V02(page);
+        var pageHome = new Page_Home(page);
         await pageHome.NavigateToHomePageAsync(HomePageUrl);
 
         await pageHome.IsRegisterLinkVisibleAsync();
