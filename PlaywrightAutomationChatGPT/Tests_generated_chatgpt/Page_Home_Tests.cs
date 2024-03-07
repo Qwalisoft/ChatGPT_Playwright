@@ -1,11 +1,9 @@
 ﻿using Microsoft.Playwright;
-using PlaywrightAutomationChatGPT.Pages_generated_ChatGPT;
-using static System.Net.Mime.MediaTypeNames;
+using PlaywrightAutomationChatGPT.Pages_generated_chatgpt;
 
+namespace PlaywrightAutomationChatGPT.Tests_generated_chatgpt;
 
-namespace PlaywrightAutomationChatGPT.Tests_created_ChatGPT;
-
-public class TestCases
+public class Page_Home_Tests
 {
     private const string HomePageUrl = "https://demo.nopcommerce.com/";
 

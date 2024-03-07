@@ -1,7 +1,7 @@
 ﻿using Microsoft.Playwright;
 
 
-namespace PlaywrightAutomationChatGPT.Pages_generated_ChatGPT
+namespace PlaywrightAutomationChatGPT.Pages_generated_chatgpt
 {
     public class Page_Home
     {
